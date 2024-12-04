@@ -2,9 +2,11 @@
 
 ## Running and Using the API Server
 ### Setup
-1. Create a virtual environment with ```python -m venv ./venv```
-2. Activate the virtual environment ```source venv/bin/activate```
-3. Install dependencies ```pip install -r requirements.txt```
+1. Clone the repository `git clone https://github.com/jadeglaze/tictactoe.git`
+2. `cd tictactoe`
+3. Create a virtual environment with `python3 -m venv ./venv`
+4. Activate the virtual environment `source venv/bin/activate`
+5. Install dependencies `pip install -r requirements.txt`
 
 ### Running Tests
 ```pytest```

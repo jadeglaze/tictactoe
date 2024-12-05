@@ -15,6 +15,9 @@
 1. ```python -m uvicorn main:app --reload```
 2. Go to [Swagger live docs](http://127.0.0.1:8000/docs) and play around
 
+### BONUS: Running the Desktop Version
+`python ttt.py`
+
 ## Time to Build
 I worked on it between other things, but total time was something like eight hours.
 See "Feedback on the Challenge" for my thinking on why I didn't stop at four
@@ -76,6 +79,12 @@ I didn't do any fancy configuration, but you can switch the `GAME_MODE`
 at the top of the `game.py` file from `"perfect"` to `"random"`.
 
 Have fun!
+
+UPDATE:
+I hacked out a desktop version of the game using PyGame and backed by the 
+same game engine! Just run `python ttt.py`!
+
+Enjoy!
 
 ## Feedback on the Challenge
 I'll keep it to two points:
